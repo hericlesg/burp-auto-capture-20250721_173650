@@ -1,0 +1,63 @@
+{
+  "capture_timestamp": "20250721_173731", 
+  "requests": [
+    {
+      "method": "POST", 
+      "request_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/request_001.txt", 
+      "url": "https://api.j-3-x-r.com:443/web-api/auth/session/v2/verifyOperatorPlayerSession?traceId=JPEBYQ21&uid=3-2813375077&gameid=40080081&tid=9569090", 
+      "sequence_number": 1, 
+      "response_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/response_001.txt", 
+      "timestamp": 1753130220893
+    }, 
+    {
+      "method": "POST", 
+      "request_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/request_002.txt", 
+      "url": "https://api.j-3-x-r.com:443/web-api/game-proxy/v2/GameName/Get?traceId=LXPRQH21&uid=3-2813375077&gameid=40080081&tid=9569090", 
+      "sequence_number": 2, 
+      "response_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/response_002.txt", 
+      "timestamp": 1753130220973
+    }, 
+    {
+      "method": "POST", 
+      "request_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/request_003.txt", 
+      "url": "https://api.j-3-x-r.com:443/game-api/fortune-dragon/v2/GameInfo/Get?traceId=NSGPOI21&uid=3-2813375077&gameid=40080081&tid=9569090", 
+      "sequence_number": 3, 
+      "response_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/response_003.txt", 
+      "timestamp": 1753130221363
+    }, 
+    {
+      "method": "POST", 
+      "request_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/request_004.txt", 
+      "url": "https://api.j-3-x-r.com:443/web-api/game-proxy/v2/Resources/GetByResourcesTypeIds?traceId=NXLAHH21&uid=3-2813375077&gameid=40080081&tid=9569090", 
+      "sequence_number": 4, 
+      "response_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/response_004.txt", 
+      "timestamp": 1753130224193
+    }, 
+    {
+      "method": "POST", 
+      "request_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/request_005.txt", 
+      "url": "https://api.j-3-x-r.com:443/game-api/fortune-dragon/v2/Spin?traceId=SUWPLU21&uid=3-2813375077&gameid=40080081&tid=9569090", 
+      "sequence_number": 5, 
+      "response_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/response_005.txt", 
+      "timestamp": 1753130230423
+    }, 
+    {
+      "method": "POST", 
+      "request_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/request_006.txt", 
+      "url": "https://api.j-3-x-r.com:443/web-api/game-proxy/v2/BetHistory/Get?traceId=VRAOMN21&uid=3-2813375077&gameid=40080081&tid=9569090", 
+      "sequence_number": 6, 
+      "response_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/response_006.txt", 
+      "timestamp": 1753130237953
+    }, 
+    {
+      "method": "POST", 
+      "request_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/request_007.txt", 
+      "url": "https://api.j-3-x-r.com:443/web-api/game-proxy/v2/BetSummary/Get?traceId=FXHKPB21&uid=3-2813375077&gameid=40080081&tid=9569090", 
+      "sequence_number": 7, 
+      "response_file": "burp_auto_capture/api.j-3-x-r.com_20250721_173731/response_007.txt", 
+      "timestamp": 1753130237963
+    }
+  ], 
+  "host": "api.j-3-x-r.com", 
+  "total_requests": 7
+}
